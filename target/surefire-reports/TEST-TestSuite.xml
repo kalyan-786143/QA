@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="226.718" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\Dell\eclipse-workspace\guru99bankdemo\target\test-classes;C:\Users\Dell\eclipse-workspace\guru99bankdemo\target\classes;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.14.1\selenium-java-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.14.1\selenium-api-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.14.1\selenium-chrome-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.14.1\selenium-chromium-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.14.1\selenium-json-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.14.1\selenium-manager-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.14.1\selenium-devtools-v116-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.14.1\selenium-devtools-v117-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.14.1\selenium-devtools-v118-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.14.1\selenium-devtools-v85-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.14.1\selenium-edge-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.14.1\selenium-firefox-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.14.1\selenium-http-4.14.1.jar;C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.14.1\selenium-ie-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.14.1\selenium-remote-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.14.1\selenium-os-4.14.1.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.14.1\selenium-safari-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.14.1\selenium-support-4.14.1.jar;C:\Users\Dell\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Dell\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Dell\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Dell\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Dell\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Dell\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar;C:\Users\Dell\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Automation\eclipse-java-2023-09-R-win32-x86_64 (1)\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire8495384408550460850\surefirebooter-20231111134836050_3.jar C:\Users\Dell\AppData\Local\Temp\surefire8495384408550460850 2023-11-11T13-48-35_423-jvmRun1 surefire-20231111134836050_1tmp surefire_0-20231111134836050_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dell\eclipse-workspace\guru99bankdemo\target\test-classes;C:\Users\Dell\eclipse-workspace\guru99bankdemo\target\classes;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.14.1\selenium-java-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.14.1\selenium-api-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.14.1\selenium-chrome-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.14.1\selenium-chromium-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.14.1\selenium-json-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.14.1\selenium-manager-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.14.1\selenium-devtools-v116-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.14.1\selenium-devtools-v117-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.14.1\selenium-devtools-v118-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.14.1\selenium-devtools-v85-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.14.1\selenium-edge-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.14.1\selenium-firefox-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.14.1\selenium-http-4.14.1.jar;C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.14.1\selenium-ie-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.14.1\selenium-remote-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.14.1\selenium-os-4.14.1.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.14.1\selenium-safari-driver-4.14.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.14.1\selenium-support-4.14.1.jar;C:\Users\Dell\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Dell\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Dell\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Dell\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Dell\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Dell\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar;C:\Users\Dell\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="C:\Automation\eclipse-java-2023-09-R-win32-x86_64 (1)\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\Dell\eclipse-workspace\guru99bankdemo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire8495384408550460850\surefirebooter-20231111134836050_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="user.name" value="Dell"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="localRepository" value="C:\Users\Dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="C:\Users\Dell\eclipse-workspace\guru99bankdemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Automation\eclipse-java-2023-09-R-win32-x86_64 (1)\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Automation/eclipse-java-2023-09-R-win32-x86_64 (1)/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Automation/eclipse-java-2023-09-R-win32-x86_64 (1)/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.4\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Automation\eclipse-java-2023-09-R-win32-x86_64 (1)\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testToVerifyLoginWithValidUserIdAndValidPassword" classname="guru99bank.testcases.LoginTest" time="4.388">
+    <system-out><![CDATA['chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyLoginWithValidUserIdAndValidPassword' test has started.
+Test description -'Test To Verify Login With Valid UserId And Valid Password'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Page title is : Guru99 Bank Manager HomePage
+Welcome message is : Welcome To Manager's Page of Guru99 Bank
+Test case 'testToVerifyLoginWithValidUserIdAndValidPassword' execution passed.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 11, 2023 1:48:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyManagersIdOnHomePage" classname="guru99bank.testcases.LoginTest" time="4.868">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyManagersIdOnHomePage' test has started.
+Test description -'Test To Verify after successful login, managers Id is displayed on managers home page'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Manager Id is : Manger Id : mngr535793
+Test case 'testToVerifyManagersIdOnHomePage' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:49:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyLoginWithInvalidUserIdAndValidPassword" classname="guru99bank.testcases.LoginTest" time="7.766">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyLoginWithInvalidUserIdAndValidPassword' test has started.
+Test description -'Test To Verify Login With In-Valid UserId And Valid Password'.
+Entered text 'mgr512229' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Alert is present.
+Text on the Alert popup is : User or Password is not valid
+Test case 'testToVerifyLoginWithInvalidUserIdAndValidPassword' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:49:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyLoginWithValidUserIdAndInvalidPassword" classname="guru99bank.testcases.LoginTest" time="9.708">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyLoginWithValidUserIdAndInvalidPassword' test has started.
+Test description -'Test To Verify Login With Valid UserId And In-Valid Password'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'password' in the password field.
+Clicked on Login button.
+Text on the Alert popup is : User or Password is not valid
+Test case 'testToVerifyLoginWithValidUserIdAndInvalidPassword' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:49:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyLoginWithInvalidUserIdAndInvalidPassword" classname="guru99bank.testcases.LoginTest" time="3.488">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyLoginWithInvalidUserIdAndInvalidPassword' test has started.
+Test description -'Test To Verify Login With In-Valid UserId And In-Valid Password'.
+Entered text 'mgr512229' in the userid field.
+Entered text 'password' in the password field.
+Clicked on Login button.
+Text on the Alert popup is : User or Password is not valid
+Test case 'testToVerifyLoginWithInvalidUserIdAndInvalidPassword' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:50:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyAddNewCustomerPage" classname="guru99bank.testcases.AddCustomerTest" time="4.939">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyAddNewCustomerPage' test has started.
+Test description -'Test To Verify after clicking on New Customer, page redirects to Add New Customer page.'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Clicked on 'New Customer' menu link.
+Add Customer page is displayed.
+Test case 'testToVerifyAddNewCustomerPage' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:50:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyCustomerDetailsPage[John Doe, male, 1999-04-15, address, City, State, 123456, 1234567890, j11112023_014839@email.com, XfEs12*](1)" classname="guru99bank.testcases.AddCustomerTest" time="14.165">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyCustomerDetailsPage' test has started.
+Test description -'Test To Verify after creating new Customer, page redirects to details of added customer'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Clicked on 'New Customer' menu link.
+Entered text 'John Doe' in the customer name field.
+Selected Male as gender.
+Entered text '15-04-1999' in the dob field.
+Entered text 'address' in the address field.
+Entered text 'City' in the city field.
+Entered text 'State' in the state field.
+Entered text '123456' in the pincode field.
+Entered text '1234567890' in the mobile field.
+Entered text 'j11112023_014839@email.com' in the email field.
+Entered text 'XfEs12*' in the password field.
+Clicked on Submit button.
+Customer registered message displayed.
+Screenshot captured
+Screenshot copied to C:\Users\Dell\eclipse-workspace\guru99bankdemo\Screenshots\
+Test case 'testToVerifyCustomerDetailsPage' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:50:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyNewlyCreatedCustomerDetails[Jane Doe, female, 1988-12-31, address, city, State, 123456, 1234567890, r11112023_014839@email.com, XfEs12*](1)" classname="guru99bank.testcases.AddCustomerTest" time="13.66">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyNewlyCreatedCustomerDetails' test has started.
+Test description -'Test To Verify after creating new Customer, page redirects to details of added customer'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Clicked on 'New Customer' menu link.
+Entered text 'Jane Doe' in the customer name field.
+Selected Female as gender.
+Entered text '31-12-1988' in the dob field.
+Entered text 'address' in the address field.
+Entered text 'city' in the city field.
+Entered text 'State' in the state field.
+Entered text '123456' in the pincode field.
+Entered text '1234567890' in the mobile field.
+Entered text 'r11112023_014839@email.com' in the email field.
+Entered text 'XfEs12*' in the password field.
+Clicked on Submit button.
+Customer registered message displayed.
+Customer name displayed : Jane Doe
+Customer gender displayed : female
+Customer date of birth displayed : 1988-12-31
+Customer address displayed : address
+Customer city displayed : city
+Customer state displayed : State
+Customer pin displayed : 123456
+Customer mobile displayed : 1234567890
+Customer email displayed : r11112023_014839@email.com
+Screenshot captured
+Screenshot copied to C:\Users\Dell\eclipse-workspace\guru99bankdemo\Screenshots\
+Test case 'testToVerifyNewlyCreatedCustomerDetails' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:50:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyAddNewAccountPage" classname="guru99bank.testcases.AddAccountTest" time="4.904">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyAddNewAccountPage' test has started.
+Test description -'Test To Verify after clicking on New Account, page redirects to Add New Account page.'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Clicked on 'New Account' menu link.
+Add Account page is displayed.
+Test case 'testToVerifyAddNewAccountPage' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:51:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyAccountDetailsPage[18565, Savings, 1000](1)" classname="guru99bank.testcases.AddAccountTest" time="12.042">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyAccountDetailsPage' test has started.
+Test description -'Test To Verify after creating new Account, page redirects to details of added Account'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Clicked on 'New Account' menu link.
+Entered text '18565' in the customer id field.
+Savings selected from from customer account type dropdown.
+Entered text '1000' in the initial amount field.
+Clicked on Submit button.
+Account created page displayed.
+Screenshot captured
+Screenshot copied to C:\Users\Dell\eclipse-workspace\guru99bankdemo\Screenshots\
+Test case 'testToVerifyAccountDetailsPage' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:51:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyNewlyCreatedAccountDetails[18565, Savings, 1000](1)" classname="guru99bank.testcases.AddAccountTest" time="10.499">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyNewlyCreatedAccountDetails' test has started.
+Test description -'Test To Verify the details of the newly added customer'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Clicked on 'New Account' menu link.
+Entered text '18565' in the customer id field.
+Savings selected from from customer account type dropdown.
+Entered text '1000' in the initial amount field.
+Clicked on Submit button.
+Account created page displayed.
+Customer id displayed : 18565
+Customer account type displayed : Savings
+Customer current account amount : 1000
+Screenshot captured
+Screenshot copied to C:\Users\Dell\eclipse-workspace\guru99bankdemo\Screenshots\
+Test case 'testToVerifyNewlyCreatedAccountDetails' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:51:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="testToVerifyLogoutFromApplication" classname="guru99bank.testcases.LogoutTest" time="6.026">
+    <system-out><![CDATA[All 'CHROME' browser instances closed.
+'chrome' browser selected for test.
+Application under test : 'https://www.demo.guru99.com/V4/index.php'.
+'CHROME' browser initialized.
+Navigated to url 'https://www.demo.guru99.com/V4/index.php'.
+Execution of 'testToVerifyLogoutFromApplication' test has started.
+Test description -'Test To Verify Log out from the application.'.
+Entered text 'mngr535793' in the userid field.
+Entered text 'vusUpeb' in the password field.
+Clicked on Login button.
+Clicked on 'Logout' menu link.
+Alert is present.
+Text on the Alert popup is : You Have Succesfully Logged Out!!
+Alert accepted.
+Login page displayed.
+Test case 'testToVerifyLogoutFromApplication' execution passed.
+]]></system-out>
+    <system-err><![CDATA[Nov 11, 2023 1:52:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+</testsuite>

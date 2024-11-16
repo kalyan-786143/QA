@@ -1,0 +1,13 @@
+guru99bank\constants\ProjectConstants.class
+guru99bank\pages\CustomerRegisteredPage.class
+guru99bank\utilities\CommonMethods.class
+guru99bank\utilities\ConfigReader.class
+guru99bank\utilities\DataReader.class
+guru99bank\listeners\ReportListeners.class
+guru99bank\pages\LoginPage.class
+guru99bank\pages\AccountCreatedPage.class
+guru99bank\reports\ExtentReportManager.class
+guru99bank\base\BaseTest.class
+guru99bank\pages\AddAccountPage.class
+guru99bank\pages\ManagerHomePage.class
+guru99bank\pages\AddCustomerPage.class

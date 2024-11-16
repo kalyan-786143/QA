@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99bank Automation Suite">
+	<listeners>
+		<listener class-name="guru99bank.listeners.ReportListeners"></listener>
+	</listeners>
+	<test name="Guru99bank functional Test">
+		<classes>
+			<class name="guru99bank.testcases.LoginTest" />
+			<class name="guru99bank.testcases.AddCustomerTest" />
+			<class name="guru99bank.testcases.AddAccountTest" />
+			<class name="guru99bank.testcases.LogoutTest" />
+		</classes>
+	</test> <!-- Guru99bank functional Test -->
+</suite> <!-- Guru99bank Automation Suite -->

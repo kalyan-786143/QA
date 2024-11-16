@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99bank Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="guru99bank.listeners.ReportListeners"/>
+  </listeners>
+  <test thread-count="5" name="Guru99bank functional Test(failed)" verbose="0">
+    <classes>
+      <class name="guru99bank.testcases.AddCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testToVerifyNewlyCreatedCustomerDetails" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- guru99bank.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Guru99bank functional Test(failed) -->
+</suite> <!-- Failed suite [Guru99bank Automation Suite] -->
